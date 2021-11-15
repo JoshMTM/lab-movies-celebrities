@@ -1,0 +1,23 @@
+<h2>Add a new movie</h2>
+
+<form method="POST" action="/movies/create">
+  <div class="mb-3">
+    <label class="form-label">Title</label>
+    <input class="form-control" type="text" name="title" />
+    <br />
+    <label class="form-label">Genre</label>
+    <input class="form-control" type="text" name="genre" />
+    <br />
+    <label class="form-label">Plot</label>
+    <input class="form-control" type="text" name="plot" />
+    <br />
+    <label for="cast">Cast:</label>
+    <select name="casts" id="casts multiple">
+      <option value="6192b4b632bccc293c0aecd8">Kanye West</option>
+      <option value="6192b5185b8f61294e744b5c">Havilah</option>
+      <option value="6192b5b93663422978851adc">Adrianna</option>
+    </select>
+    <br />
+    <button class="btn btn-primary" type="submit">SUBMIT</button>
+  </div>
+</form>
